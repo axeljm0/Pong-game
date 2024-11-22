@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  /* Cambiar el tamaño del canvas para pantallas pequeñas */
+  canvas {
+      width: 100vw; /* Ocupa todo el ancho de la pantalla */
+      height: 100vh; /* Ocupa todo el alto de la pantalla */
+  }
+}
