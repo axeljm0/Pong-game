@@ -1,9 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: rgb(137, 126, 106);
+  background-image: radial-gradient(circle at 32.87% 13.27%, #726e6c 0, #4c5a62 25%, #1f4459 50%, #002f50 75%, #001d48 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
 }
 canvas {
   display: block;
+  transform: translate(176%, 5%);
+  backdrop-filter: blur(20px) ;
 }
 
 @media screen and (max-width: 768px) {
